@@ -1,0 +1,192 @@
+#########################################
+#Config File to Load all Global Variables
+#########################################
+
+#Variables needed for Watson
+#categories:
+Add_and_Terminate_Parties:
+  critical: False
+  keywords: ['Add and Terminate Parties']
+Affidavit:
+  critical: False
+  keywords: ['Affidavit','Affidavit in Opposition to Motion','Affidavit in Support of Motion','Affidavit of Service','Affidavit of Service Complaints','Affidavit of Service Other','Financial Affidavit - CJA 23']
+Affirmation:
+  critical: False
+  keywords: ['Affirmation','Affirmation in Opposition to Motion','Affirmation in Support','Affirmation in Support of Motion']
+Agreement:
+  critical: False
+  keywords: ['Settlement Agreement']
+Answer:
+  critical: False
+  keywords: ['Answer to 30/60 Days Amended Complaint','Answer to Amended Complaint','Answer to Complaint','Answer to Interrogatories']
+Appeal:
+  critical: False
+  keywords: ['Appeal of Magistrate Judge Decision to District Court','Electronic Index to Record on Appeal']
+Application:
+  critical: False
+  keywords: ['Application for Court to Request Counsel']
+Bill_of_Costs:
+  critical: False
+  keywords: ['Bill of Costs','Bill of Costs Notice of Taxation']
+Brief:
+  critical: False
+  keywords: ['Trial Brief']
+Case_Management:
+  critical: False
+  keywords: ['Case Management Plan','Case Management Statement']
+Certificate:
+  critical: False
+  keywords: ['Certificate of Counsel','Certificate of Service','Certificate of Service Other']
+Citation:
+  critical: False
+  keywords: ['Internet Citation']
+Complaint:
+  critical: True
+  keywords: ['Amended Complaint','Complaint']
+Conference:
+  critical: False
+  keywords: ['Scheduling Conference','Settlement Conference','Status Conference','Telephone Conference']
+Consent:
+  critical: False
+  keywords: ['Consent to Jurisdiction by US Magistrate Judge']
+Contempt:
+  critical: False
+  keywords: ['Contempt Certification']
+Declaration:
+  critical: False
+  keywords: ['Declaration','Declaration in Opposition','Declaration in Opposition to Motion','Declaration in Support','Declaration in Support of Motion']
+Deposition:
+  critical: False
+  keywords: ['Deposition']
+Disclosure:
+  critical: False
+  keywords: ['Disclosure of Interested Parties','Rule 26 Disclosure','Rule 7.1 Corporate Disclosure Statement']
+Discovery:
+  critical: False
+  keywords: ['Discovery Hearing','Rule 26(f) Discovery Plan Report']
+Docket:
+  critical: False
+  keywords: ['Docket Annotation','Docket Call']
+Endorsement:
+  critical: False
+  keywords: ['Memo Endorsement']
+Exhibit:
+  critical: False
+  keywords: ['Exhibit','Exhibit List']
+Exparte:
+  critical: False
+  keywords: ['Exparte']
+Hearing:
+  critical: False
+  keywords: ['Initial Conference Hearing']
+Incorrect:
+  critical: False
+  keywords: ['Incorrect Case/Document/Entry Information.']
+Interrogatories:
+  critical: False
+  keywords: ['Interrogatories']
+Judgment:
+  critical: True
+  keywords: ['Amended Judgment','Clerks Entry of Default','Clerks Judgment','Judgment']
+Jury:
+  critical: False
+  keywords: ['Jury Instructions','Jury Notes','Jury Selection','Jury Verdict']
+Letter:
+  critical: False
+  keywords: ['Endorsed Letter','Letter']
+Mandate:
+  critical: False
+  keywords: ['USCA Mandate']
+Mediation:
+  critical: False
+  keywords: ['Mediation Referral Order','Mediator Session Held','Mediator Session Not Held','Mediator Session Scheduled/Re-Scheduled']
+Memorandum:
+  critical: False
+  keywords: ['Memorandum & Opinion','Memorandum in Opposition','Memorandum in Support','Memorandum of Law in Opposition','Memorandum of Law in Opposition to Motion','Memorandum of Law in Support','Memorandum of Law in Support of Motion','Trial Memorandum']
+Motion:
+  critical: False
+  keywords: ['Motion for Approval of Infant Compromise','Motion for Attorney Fees','Motion for Conference','Motion for Contempt','Motion for Default Judgment','Motion for Discovery','Motion for Extension of Time','Motion for Extension of Time to Amend','Motion for Extension of Time to Complete Discovery','Motion for Extension of Time to File','Motion for Extension of Time to File Answer','Motion for Extension of Time to File Document','Motion for Extension of Time to File Response/Reply','Motion for Hearing','Motion for Judgment as a Matter of Law','Motion for Leave to Appear Pro Hac Vice','Motion for Leave to Electronically File Document under Seal','Motion for Leave to File Document','Motion for Leave to File Excess Pages','Motion for Local Rule 37.2 Conference','Motion for Miscellaneous Relief','Motion for Oral Argument','Motion for Order to Show Cause','Motion for Permanent Injunction','Motion for Permission for Electronic Case Filing','Motion for Pre Motion Conference','Motion for Protective Order','Motion for Reconsideration','Motion for Recusal','Motion for Release of Funds','Motion for Sanctions','Motion for Settlement','Motion for Summary Judgment','Motion for Writ','Motion Hearing','Motion in Limine','Motion to Adjourn Conference','Motion to Amend/Correct','Motion to Amend/Correct/Supplement','Motion to Appear by Telephone','Motion to Appoint Counsel','Motion to Approve','Motion to Bifurcate','Motion to Compel','Motion to Continue','Motion to Dismiss','Motion to Dismiss for Failure to State a Claim','Motion to Expedite','Motion to Intervene','Motion to Preclude','Motion to Produce','Motion to Quash','Motion to Reopen','Motion to Seal Document','Motion to Set Aside','Motion to Sever','Motion to Stay','Motion to Strike','Motion to Substitute Attorney','Motion to Take Deposition','Motion to Unseal Document','Motion to Withdraw','Motion to Withdraw as Attorney']
+Notice:
+  critical: True
+  keywords: ['Amended Notice of Appeal','Clerks Notice of Rule 73','Corrected Notice of Appeal','Mail Notice of Right to Appeal','Notice (Other)','Notice of Acceptance with Offer of Judgment','Notice of Appeal','Notice of Appearance','Notice of Change of Address','NOTICE of Change of Address/Firm/Email','Notice of Claim (09/11)','Notice of Filing Transcript','Notice of Hearing','Notice of Limited Appearance of Pro Bono Counsel','Notice of Mediator Assignment','Notice of Participation in Section 1983 Plan','Notice of Related Case','Notice of Selection for Mediation','Notice of Settlement','Notice of Substitution of Attorney','Notice of Voluntary Dismissal','Notice re: Bill of Costs','Notice Subpoena Duces Tecum','Notice to Attorney to Re-File Document - Event Type Error','Notice(Other)']
+Objection:
+  critical: False
+  keywords: ['Objection (non-motion)','Objection to Report and Recommendations']
+Order:
+  critical: True
+  keywords: ['Amended Order Referring Case to Magistrate Judge','Mail Order by Certified Mail','Order','Order 30 Days Amended Complaint (case opening)','Order Adopting Report and Recommendations','Order Certifying Discovery','Order Dismissing Case','Order Dismissing Parties','Order for Initial Pretrial Conference','Order for Limited Appearance of Pro Bono Counsel','Order Lifting Stay','Order of Discontinuance','Order of Dismissal','Order of Service','Order of Settlement','Order of Sustenance/Lodging/Transportation','Order on Application for the Court to Request Counsel','Order on Motion for Approval of Infant Compromise','Order on Motion for Attorney Fees','Order on Motion for Conference','Order on Motion for Discovery','Order on Motion for Extension of Time','Order on Motion for Extension of Time to Amend','Order on Motion for Extension of Time to Answer','Order on Motion for Extension of Time to Complete Discovery','Order on Motion for Extension of Time to File','Order on Motion for Extension of Time to File Response/Reply','Order on Motion for Hearing','Order on Motion for Judgment on the Pleadings','Order on Motion for Leave to File','Order on Motion for Leave to File Document','Order on Motion for Leave to File Excess Pages','Order on Motion for Local Rule 37.2 Conference','Order on Motion for Miscellaneous Relief','Order on Motion for Order to Show Cause','Order on Motion for Partial Summary Judgment','Order on Motion for Pre Motion Conference','Order on Motion for Protective Order','Order on Motion for Reconsideration','Order on Motion for Release of Funds','Order on Motion for Sanctions','Order on Motion for Settlement','Order on Motion for Summary Judgment','Order on Motion in Limine','Order on Motion to Adjourn Conference','Order on Motion to Amend/Correct','Order on Motion to Amend/Correct/Supplement','Order on Motion to Appear by Telephone','Order on Motion to Approve','Order on Motion to Compel','Order on Motion to Continue','Order on Motion to Dismiss','Order on Motion to Dismiss for Failure to State a Claim','Order on Motion to Dismiss/Lack of Prosecution','Order on Motion to Produce','Order on Motion to Quash','Order on Motion to Seal Document','Order on Motion to Serve','Order on Motion to Set Aside','Order on Motion to Set Aside Default','Order on Motion to Stay','Order on Motion to Strike','Order on Motion to Substitute Attorney','Order on Motion to Take Deposition','Order on Motion to Vacate','Order on Motion to Withdraw as Attorney','Order Referring Case to Magistrate Judge','Order Referring Case to Mediation','Order Referring Motion','Order Setting Hearing on Motion','Order Staying Case','Order Striking Document from Record','Order to Show Cause','Order to Show Cause - Unsigned','Order Withdrawing Case from Mediation','Scheduling Order','Status Report Order']
+Other:
+  critical: False
+  keywords: ['Applicable Party','Attached Image','Costs Taxed','Filing Fee Received','Redacted Document','Summary of ECF Activity','Taxation of Costs']
+Pretrial:
+  critical: False
+  keywords: ['Pre Motion Conference','Pre-Conference Statement','Pre-Motion Conference','Pretrial Conference - Final','Pretrial Conference - Initial','Pretrial Conference - Interim','Pretrial Memorandum','Pretrial Order']
+Pro_Se:
+  critical: False
+  keywords: ['Pro Se','Pro Se Consent to Receive Electronic Service','Pro Se Mediation Instructions','Pro Se Memorandum to Change Address']
+Proposal:
+  critical: False
+  keywords: ['Proposed Findings of Fact','Proposed Jury Instructions','Proposed Pretrial Order','Proposed Scheduling Order','Proposed Summons/Civil Cover Sheet','Proposed Voir Dire','Proposed Voir Dire Questions','Protective Order']
+Receipt:
+  critical: False
+  keywords: ['Mail receipt','Marshals Process Receipt and Return of Service Executed Complaints','Marshals Process Receipt and Return of Service Unexecuted']
+Remark:
+  critical: False
+  keywords: ['Remark']
+Reply:
+  critical: False
+  keywords: ['Reply Affidavit in Opposition to Motion','Reply Affidavit in Support of Motion','Reply Affirmation in Opposition to Motion','Reply Affirmation in Support of Motion','Reply in Opposition','Reply in Support','Reply Memorandum of Law','Reply Memorandum of Law in Oppisition to Motion','Reply Memorandum of Law in Support','Reply Memorandum of Law in Support of Motion','Reply to Response to Motion']
+Report:
+  critical: False
+  keywords: ['Final Report of Mediator #1','Final Report of Mediator #4','Final Report of Mediator #5','Final Report of Mediator #8','Report and Recommendations','Report of Rule 26(f) Planning Meeting','Status Report']
+Request:
+  critical: False
+  keywords: ['Form Request - Mailed','Initial Report of Parties Before Pretrial Conference','Request for Certificate of Default','Request for Issuance of Amended Summons','Request for Issuance of Summons','Request for Production of Documents','Request for Waiver of Service','Request to Charge']
+Response:
+  critical: False
+  keywords: ['Response','Response in Opposition to Motion','Response in Support of Motion','Response to Motion','Response to Order to Show Cause']
+Returned:
+  critical: False
+  keywords: ['Mail Returned']
+Review:
+  critical: False
+  keywords: ['Section 1983 Plan 100-Day Review']
+Sealed:
+  critical: False
+  keywords: ['Sealed','Sealed Document']
+Service:
+  critical: False
+  keywords: ['FRCP 4 Service Package - Hand Delivered to U.S.M.','FRCP 4 Service Package - Mailed']
+Set:
+  critical: False
+  keywords: ['Set Deadlines','Set Deadlines/Hearings','Set/Reset Deadlines','Set/Reset Hearings']
+Statement:
+  critical: False
+  keywords: ['Corporate Disclosure Statement','Counter Statement to Rule 56.1','Rule 56.1 Statement']
+Stay:
+  critical: False
+  keywords: ['Case Stayed']
+Stipulation:
+  critical: False
+  keywords: ['Stipulation','Stipulation - Unsigned','Stipulation and Order','Stipulation and Order of Dismissal','Stipulation of Dismissal','Stipulation of Voluntary Dismissal']
+Subpoena:
+  critical: True
+  keywords: ['Subpoena','Subpoena Issued']
+Summons:
+  critical: True
+  keywords: ['Summons Issued','Summons Reissued','Summons Returned Executed','Summons Returned Unexecuted']
+Terminate:
+  critical: False
+  keywords: ['Terminate Deadlines and Hearings','Terminate Hearings','Terminate Motions (filed in error)','Terminate Scheduling Order Deadlines','Transmission to Docket Assistant Clerk','Transmission to Judgments and Orders Clerk']
+Transcript:
+  critical: False
+  keywords: ['Transcript']
+Transmission:
+  critical: False
+  keywords: ['Transmission of USCA Mandate/Order to District Judge']
+Waiver:
+  critical: False
+  keywords: ['Waiver of Service Executed']
+Writ:
+  critical: False
+  keywords: ['Writ of Habeas Corpus ad Testificandum Issue']
