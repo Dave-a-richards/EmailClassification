@@ -1,0 +1,6 @@
+This configuration file is configured to put passwords into the system keychain using the keyring library.
+This keeps passwords from being stored in the flat file.
+To change a password, symply replace the Stored In Keyring value with the new password and it will update
+
+Limitations:
+At this time, it will only handle username/password combinations that are one level deep in the config.yaml

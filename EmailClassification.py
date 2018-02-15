@@ -702,8 +702,9 @@ def createCategoryTrainingFile(categories_training_file):
 #print(result)
 
 #THIS GETS THE STATUS' OF THE MODELS AND PRINTS THEM
-#print(deleteClassifier('0015b6x265-nlc-29393',WATSON_USERNAME,WATSON_PASSWORD))
+#print(deleteClassifier('718eedx290-nlc-456',WATSON_USERNAME,WATSON_PASSWORD))
 classifierInfo()
+
 
 #ANALYZE AGAINST CURRENT MODELS (4 Models)
 #createModelAnalysis(RESULT_ANALYSIS_FILE,email_account)
